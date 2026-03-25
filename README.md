@@ -72,7 +72,7 @@ https://raw.githubusercontent.com/pleiteues-code/mvp-fundos-investimento-analise
 
 **Fonte do Dataset:**  
 Dataset original obtido no Kaggle:  
-https://www.kaggle.com/datasets/stefanoleone992/mutual-funds-dataset
+https://www.kaggle.com/datasets/iamsouravbanerjee/mutual-funds-india
 ---
 
 ## ✅ Resultado Final
