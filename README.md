@@ -1,41 +1,43 @@
 # 📊 MVP – Análise de Fundos de Investimento
 
-Este repositório contém o MVP desenvolvido para a disciplina de **Análise de Dados e Boas Práticas**, com foco na avaliação de fundos de investimento utilizando métricas de risco e retorno.
+Este repositório contém o MVP desenvolvido para a disciplina **Análise de Dados e Boas Práticas**, com foco na avaliação de fundos de investimento utilizando métricas de risco, retorno e eficiência.
 
 ---
 
 ## 👤 Autor
+
 **Nome:** Paulo Ricardo Marques Leite  
 **Matrícula:** 4052025002553  
 
 ---
 
 ## 📁 Estrutura do Repositório
+
 | Caminho | Descrição |
 |--------|-----------|
 | `data/comprehensive_mutual_funds_data.csv` | Dataset utilizado no projeto |
 | `MVP_Fundos_Investimento_Paulo_Ricardo_Marques_Leite.ipynb` | Notebook completo |
 | `README.md` | Documentação do projeto |
- 
+
 ---
 
-## 📄 Descrição do Projeto
+## 📝 Descrição do Projeto
 
 O objetivo deste MVP é analisar um conjunto real de fundos de investimento, avaliando:
 
-- Risco (desvio-padrão)
-- Retorno (1, 3 e 5 anos)
-- Eficiência (Sharpe, Sortino, Alpha, Beta)
+- **Risco:** desvio-padrão  
+- **Retorno:** janelas de 1, 3 e 5 anos  
+- **Eficiência:** Sharpe, Sortino, Alpha e Beta  
 
 A análise busca responder perguntas práticas sobre o comportamento dos fundos e validar hipóteses relacionadas ao equilíbrio entre risco e retorno.
 
 ---
 
-## 🎯 Hipóteses Avaliadas
+## 🔍 Hipóteses Avaliadas
 
-1. **Fundos com maior Sharpe Ratio tendem a apresentar retornos mais altos.**  
-2. **Fundos mais arriscados (maior desvio-padrão) não necessariamente entregam melhor retorno.**  
-3. **Categorias diferentes de fundos apresentam padrões distintos de risco e retorno.**
+1. Fundos com maior **Sharpe Ratio** tendem a apresentar retornos mais altos.  
+2. Fundos mais arriscados (maior desvio-padrão) **não necessariamente** entregam melhor retorno.  
+3. Categorias diferentes de fundos apresentam padrões distintos de risco e retorno.
 
 ---
 
@@ -52,7 +54,7 @@ O notebook inclui:
 
 ---
 
-## 📊 Tecnologias Utilizadas
+## 🛠 Tecnologias Utilizadas
 
 - Python  
 - Pandas  
@@ -70,14 +72,12 @@ https://colab.research.google.com/drive/1oDmkxqFGegxdV9t8aoXHfmnIIFP8J_hj#scroll
 **Dataset (RAW):**  
 https://raw.githubusercontent.com/pleiteues-code/mvp-fundos-investimento-analise-de-dados-e-boas-praticas/main/data/comprehensive_mutual_funds_data.csv
 
-**Fonte do Dataset:**  
-Dataset original obtido no Kaggle:  
-Mutual Funds – Comprehensive Indian Mutual Funds Dataset
-
+**Fonte do Dataset (Kaggle):**  
+https://www.kaggle.com/datasets/iamsouravbanerjee/mutual-funds-india
 
 ---
 
-## ✅ Resultado Final
+## 📈 Resultado Final
 
 O MVP demonstra que métricas de risco e retorno podem ser utilizadas para:
 
@@ -89,4 +89,5 @@ O MVP demonstra que métricas de risco e retorno podem ser utilizadas para:
 
 ## 📬 Contato
 
-Caso necessário: **pleiteues@gmail.com**
+Caso deseje mais informações ou tenha dúvidas, fique à vontade para entrar em contato.
+pleiteues@gmail.com
