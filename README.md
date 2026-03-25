@@ -1,4 +1,5 @@
 # 📊 MVP – Análise de Fundos de Investimento
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1oDmkxqFGegxdV9t8aoXHfmnIIFP8J_hj#scrollTo=DBKjBRbGHmTq)
 
 Este repositório contém o MVP desenvolvido para a disciplina **Análise de Dados e Boas Práticas**, com foco na avaliação de fundos de investimento utilizando métricas de risco, retorno e eficiência.
 
@@ -89,5 +90,6 @@ O MVP demonstra que métricas de risco e retorno podem ser utilizadas para:
 
 ## 📬 Contato
 
-Caso deseje mais informações ou tenha dúvidas, fique à vontade para entrar em contato.
-pleiteues@gmail.com
+Caso deseje mais informações ou tenha dúvidas, entre em contato:  
+📧 **pleiteues@gmail.com**
+
