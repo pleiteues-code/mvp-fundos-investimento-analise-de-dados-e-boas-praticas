@@ -65,11 +65,14 @@ O notebook inclui:
 ## 🔗 Links Importantes
 
 **Notebook no Google Colab:**  
-> *(adicione aqui o link quando estiver pronto)*
+https://colab.research.google.com/drive/1oDmkxqFGegxdV9t8aoXHfmnIIFP8J_hj#scrollTo=DBKjBRbGHmTq
 
 **Dataset (RAW):**  
 https://raw.githubusercontent.com/pleiteues-code/mvp-fundos-investimento-analise-de-dados-e-boas-praticas/main/data/comprehensive_mutual_funds_data.csv
 
+**Fonte do Dataset:**  
+Dataset original obtido no Kaggle:  
+https://www.kaggle.com/datasets/stefanoleone992/mutual-funds-dataset
 ---
 
 ## ✅ Resultado Final
