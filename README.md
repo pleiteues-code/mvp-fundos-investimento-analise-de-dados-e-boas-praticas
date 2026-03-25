@@ -1,6 +1,6 @@
 # 📊 MVP – Análise de Fundos de Investimento
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1oDmkxqFGegxdV9t8aoXHfmnIIFP8J_hj#scrollTo=DBKjBRbGHmTq)
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pleiteues-code/mvp-fundos-investimento-analise-de-dados-e-boas-praticas/blob/main/MVP_Fundos_Investimento_Paulo_Ricardo_Marques_Leite.ipynb)
 Este repositório contém o MVP desenvolvido para a disciplina **Análise de Dados e Boas Práticas**, com foco na avaliação de fundos de investimento utilizando métricas de risco, retorno e eficiência.
 
 ---
