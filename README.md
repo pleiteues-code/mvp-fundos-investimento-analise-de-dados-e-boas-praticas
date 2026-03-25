@@ -11,11 +11,11 @@ Este repositório contém o MVP desenvolvido para a disciplina de **Análise de 
 ---
 
 ## 📁 Estrutura do Repositório
-📦 mvp-fundos-investimento-analise-de-dados-e-boas-praticas
- ├── data/
- │    └── comprehensive_mutual_funds_data.csv   # Dataset utilizado no projeto
- ├── MVP_Fundos_Investimento_Paulo_Ricardo_Marques_Leite.ipynb   # Notebook completo
- └── README.md
+| Caminho | Descrição |
+|--------|-----------|
+| `data/comprehensive_mutual_funds_data.csv` | Dataset utilizado no projeto |
+| `MVP_Fundos_Investimento_Paulo_Ricardo_Marques_Leite.ipynb` | Notebook completo |
+| `README.md` | Documentação do projeto |
  
 ---
 
