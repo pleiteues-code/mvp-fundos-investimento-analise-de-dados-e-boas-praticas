@@ -18,7 +18,7 @@ Este repositório contém o MVP desenvolvido para a disciplina **Análise de Dad
 | Caminho | Descrição |
 |--------|-----------|
 | `data/comprehensive_mutual_funds_data.csv` | Dataset utilizado no projeto |
-| `MVP_Fundos_Investimento_Paulo_Ricardo_Marques_Leite.ipynb` | Notebook completo |
+| `MVP_Fundos_Investimento_Paulo_Ricardo_Marques_Leite.ipynb` |  Notebook completo |
 | `README.md` | Documentação do projeto |
 
 ---
@@ -131,7 +131,9 @@ O MVP demonstra que métricas de risco e retorno podem ser utilizadas para:
 ## 🧪 Resultados das Hipóteses
 
 • 	Hipótese 1: parcialmente confirmada — Sharpe se correlaciona moderadamente com retornos de 3 anos.
+
 • 	Hipótese 2: refutada — maior risco não implica maior eficiência.
+
 • 	Hipótese 3: confirmada — categorias apresentam padrões distintos de Sharpe e SD.
 
 
