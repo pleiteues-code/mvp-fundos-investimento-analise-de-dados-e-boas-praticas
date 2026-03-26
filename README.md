@@ -60,6 +60,7 @@ O notebook inclui:
 ---
 ## 📌 Função de visualização
 Para evitar repetição de código e garantir consistência visual, foi criada a função:
+
 def plot_box(df, x, y, order, title, ylabel, ylim=None):
     plt.figure(figsize=(10,5))
     
