@@ -48,14 +48,53 @@ A análise busca responder perguntas práticas sobre o comportamento dos fundos 
 O notebook inclui:
 
 - Carregamento e inspeção inicial do dataset  
-- Limpeza e preparação dos dados  
+- Limpeza e preparação dos dados
+  - tratamento de valores ausentes
+  - conversão de colunas numéricas
+  - padronização das categorias (correção de variações como “Custom Oriented”, “Solution oriented”, “Non-Oriented”) 
 - Visualizações exploratórias  
 - Matriz de correlação  
 - Teste das hipóteses  
 - Conclusões finais  
 
 ---
+## 📌 Função de visualização
+Para evitar repetição de código e garantir consistência visual, foi criada a função:
+def plot_box(df, x, y, order, title, ylabel, ylim=None):
+    plt.figure(figsize=(10,5))
+    
+    sns.boxplot(
+        x=x,
+        y=y,
+        data=df,
+        order=order,
+        hue=x,
+        palette='viridis',
+        legend=False,
+        linewidth=1.5
+    )
+    
+    plt.xticks(rotation=45)
+    plt.title(title)
+    plt.xlabel("Categoria")
+    plt.ylabel(ylabel)
+    plt.grid(axis='y', linestyle='--', alpha=0.3)
+    
+    if ylim:
+        plt.ylim(0, ylim)
+    
+    plt.tight_layout()
+    plt.show()
+    
+    Essa função padroniza:
+- paleta
+- grid
+- espessura das linhas
+- layout
+- ordem das categorias
+E permite ajustes futuros em um único ponto.
 
+---
 ## 🛠 Tecnologias Utilizadas
 
 - Python  
@@ -88,7 +127,20 @@ O MVP demonstra que métricas de risco e retorno podem ser utilizadas para:
 - Entender diferenças entre categorias de fundos  
 
 ---
+## 🧪 Resultados das Hipóteses
 
+• 	Hipótese 1: parcialmente confirmada — Sharpe se correlaciona moderadamente com retornos de 3 anos.
+• 	Hipótese 2: refutada — maior risco não implica maior eficiência.
+• 	Hipótese 3: confirmada — categorias apresentam padrões distintos de Sharpe e SD.
+
+
+O MVP demonstra que métricas de risco e retorno podem ser utilizadas para:
+
+- Comparar fundos de forma objetiva  
+- Identificar eficiência ajustada ao risco  
+- Entender diferenças entre categorias de fundos  
+
+---
 ## 📬 Contato
 
 Caso deseje mais informações ou tenha dúvidas, entre em contato:  
