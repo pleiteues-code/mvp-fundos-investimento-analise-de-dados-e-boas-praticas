@@ -61,12 +61,11 @@ Requer:
 
 ## 🧩 Hipóteses Avaliadas
 
-Durante a análise exploratória, algumas hipóteses foram levantadas para orientar a investigação dos dados:
+Durante a análise exploratória, três hipóteses principais foram levantadas para orientar a investigação dos dados:
 
 1. **Fundos com maior risco (SD) tendem a apresentar maior retorno.**  
 2. **O Sharpe Ratio varia significativamente entre categorias de fundos.**  
-3. **Fundos com bom desempenho no curto prazo (1 ano) também tendem a performar bem no médio e longo prazo.**  
-4. **Existem padrões visuais claros que diferenciam categorias de fundos em termos de risco e retorno.**
+3. **Fundos com bom desempenho no curto prazo (1 ano) também tendem a performar bem no médio e longo prazo.**
 
 Essas hipóteses serviram como guia para estruturar as visualizações e análises estatísticas apresentadas no notebook.
 
