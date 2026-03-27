@@ -59,12 +59,52 @@ Requer:
 
 ---
 
-## 🧠 Destaques da Análise
+## 🧩 Hipóteses Avaliadas
 
-- Visualizações com histogramas + KDE para entender distribuições.  
-- Pairplot para visão geral das relações entre métricas.  
-- Tratamento visual de outliers sem alterar os dados originais.  
-- Notas explicativas ao longo do notebook para reforçar o caráter didático.  
+Durante a análise exploratória, algumas hipóteses foram levantadas para orientar a investigação dos dados:
+
+1. **Fundos com maior risco (SD) tendem a apresentar maior retorno.**  
+2. **O Sharpe Ratio varia significativamente entre categorias de fundos.**  
+3. **Fundos com bom desempenho no curto prazo (1 ano) também tendem a performar bem no médio e longo prazo.**  
+4. **Existem padrões visuais claros que diferenciam categorias de fundos em termos de risco e retorno.**
+
+Essas hipóteses serviram como guia para estruturar as visualizações e análises estatísticas apresentadas no notebook.
+
+---
+
+## 🔍 Principais Insights
+
+A análise trouxe alguns achados relevantes:
+
+- A distribuição do risco (desvio‑padrão) é **assimétrica**, com presença de outliers que representam fundos extremamente voláteis.  
+- O Sharpe Ratio apresenta **grande variação entre categorias**, reforçando que risco e retorno não se distribuem de forma homogênea no mercado.  
+- As correlações entre retornos de 1, 3 e 5 anos mostram **padrões consistentes**, sugerindo que fundos com bom desempenho recente tendem a manter desempenho positivo no médio prazo.  
+- O Pairplot evidenciou **relações lineares moderadas** entre algumas métricas, além de destacar clusters visuais que podem indicar perfis distintos de fundos.  
+- A análise visual por categoria, com tratamento de outliers apenas para fins de leitura, permitiu comparar grupos de forma mais clara sem alterar os dados originais.
+
+Esses insights ajudam a construir uma visão mais estruturada sobre o comportamento dos fundos e reforçam a importância de combinar múltiplas métricas para avaliar risco e retorno.
+
+---
+
+## 🔮 Próximos Passos
+
+Este MVP cumpre o objetivo de apresentar uma análise clara e didática sobre métricas de risco e retorno de fundos de investimento.  
+Caso o projeto seja expandido futuramente, alguns caminhos naturais incluem:
+
+- inclusão de novas métricas (drawdown, tracking error, information ratio)  
+- comparação entre diferentes benchmarks  
+- análise temporal da evolução dos fundos  
+- criação de dashboards interativos (Streamlit ou Power BI)  
+- aplicação de modelos de clusterização para segmentar fundos por perfil de risco  
+
+Essas extensões permitiriam aprofundar a análise e transformar o MVP em um estudo mais robusto e completo.
+
+---
+
+## 🙌 Agradecimentos
+
+Obrigado por dedicar tempo para revisar este projeto.  
+Feedbacks, sugestões e melhorias são sempre bem-vindos.
 
 ---
 
@@ -72,9 +112,3 @@ Requer:
 
 **Paulo Ricardo**  
 Projeto desenvolvido como parte de um MVP acadêmico de análise de dados.
-
----
-
-## 📄 Licença
-
-Este projeto é de uso acadêmico e livre para consulta.
