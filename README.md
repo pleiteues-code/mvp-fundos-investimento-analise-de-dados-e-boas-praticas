@@ -84,6 +84,20 @@ A análise trouxe alguns achados relevantes:
 Esses insights ajudam a construir uma visão mais estruturada sobre o comportamento dos fundos e reforçam a importância de combinar múltiplas métricas para avaliar risco e retorno.
 
 ---
+## 🧾 Conclusões
+
+A análise exploratória permitiu compreender melhor o comportamento dos fundos de investimento a partir de métricas de risco e retorno.  
+Alguns pontos se destacam:
+
+- Fundos mais arriscados tendem a apresentar retornos maiores, mas com grande dispersão — reforçando que risco elevado não garante desempenho superior.  
+- O Sharpe Ratio mostrou diferenças relevantes entre categorias, evidenciando que a relação risco/retorno varia bastante conforme o tipo de fundo.  
+- Os retornos de 1, 3 e 5 anos apresentaram correlações positivas, sugerindo certa persistência de desempenho ao longo do tempo.  
+- A presença de outliers é parte natural do universo de fundos; por isso, optou-se por mantê-los nos dados originais, aplicando apenas ajustes visuais quando necessário.  
+- As visualizações ajudaram a revelar padrões e assimetrias que não seriam facilmente percebidos apenas com estatísticas descritivas.
+
+No conjunto, o estudo reforça a importância de analisar múltiplas métricas simultaneamente e de interpretar risco e retorno de forma contextualizada, considerando tanto a categoria do fundo quanto sua consistência histórica.
+
+---
 
 ## 🔮 Próximos Passos
 
